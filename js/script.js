@@ -5,7 +5,7 @@ window.addEventListener("load" , ()=>{
 
     setTimeout(()=>{
         spinner.style.display = "none"
-    }, 500)
+    }, 300)
 })
 
 
@@ -136,8 +136,6 @@ document.getElementById("contact-form-id").addEventListener("submit", function (
         email_error.textContent = "Email should Contain @ or . Symbol"
         valid = false
     }
-
-    subject
 
     if (subject === "" || subject.length < 3) {
         subject_error.textContent = "Subject must be at least contain 3 characters."

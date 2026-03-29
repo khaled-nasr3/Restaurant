@@ -4,24 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="./images/favicon.png">
     <title>Restarunt</title>
 </head>
 
 <body>
-    <!-- loader page -->
-    <section id="loader">
-        <div class="spin"></div>
-    </section>
-    
-    <!-- Landing-Page -->
-    <main id="home">
+    <main>
 
         <!-- Nav -->
-        <nav class="wow fadeInDown" data-wow-delay="0.5s">
+        <nav>
             <img src="./images/logo.png" alt="Avatar">
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -33,7 +26,7 @@
         </nav>
 
         <!-- Main-Section -->
-        <header class="wow fadeInLeft" data-wow-delay="1s">
+        <header>
             <div class="typewriter-text">
                 <h1 class="text">Welcome to <span>food lover </span>restaurant</h1>
             </div>
@@ -45,7 +38,7 @@
     </main>
 
     <!-- History -->
-    <div id="history" class="history wow fadeInLeft " data-wow-delay="0.5s">
+    <div id="history" class="history">
         <!-- Main Titles -->
         <div class="titles">
             <h1>the food lover history</h1>
@@ -74,7 +67,7 @@
     <!-- Offers-Cards -->
     <div id="offers" class="offers">
         <!-- Main Titles -->
-        <div class="head wow fadeInDown" data-wow-delay="0.5s">
+        <div class="head">
             <h1>our special offers</h1>
             <p class="heading">more than 25+ years experience</p>
         </div>
@@ -82,7 +75,7 @@
         <div class="wrapper">
             <div class="container slider">
                 <!-- card 1 -->
-                <div class="card wow fadeInLeft " data-wow-delay="0.5s">
+                <div class="card">
                     <img src="./Images Webp/offer2.webp" alt="Avatar">
                     <h3>vegerterian pasta</h3>
                     <div class="content-1">
@@ -113,8 +106,8 @@
                 </div>
             </div>
 
-            <button id="prev" class=" fa-solid fa-circle-right fa-2x"></button>
-            <button id="next" class=" fa-solid fa-circle-left fa-2x"></button>
+            <button id="prev">&#10095;</button>
+            <button id="next">&#10094;</button>
         </div>
     </div>
 
@@ -242,22 +235,22 @@
         </div>
 
         <div class="services">
-            <div class="card wow fadeIn" data-wow-delay="0.5s">
+            <div class="card">
                 <img src="./images/breckfastIcon.png" alt="Avatar" loading="lazy">
                 <h3>breakfast</h3>
                 <p>8:00 am to 10:00 pm</p>
             </div>
-            <div class="card wow fadeIn" data-wow-delay="1s">
+            <div class="card">
                 <img src="./images/lunchIcon.png" alt="Avatar" loading="lazy">
                 <h3>Lunch</h3>
                 <p>4:00 pm to 7:00 pm</p>
             </div>
-            <div class="card wow fadeIn" data-wow-delay="1.5s">
+            <div class="card">
                 <img src="./images/dinnerIcon.png" alt="Avatar" loading="lazy">
                 <h3>dinner</h3>
                 <p>8:00 pm to 1:00 am</p>
             </div>
-            <div class="card wow fadeIn" data-wow-delay="2s">
+            <div class="card">
                 <img src="./images/dessertIcon.png" alt="Avatar" loading="lazy">
                 <h3>dessert</h3>
                 <p>all day</p>
@@ -283,9 +276,9 @@
         <!-- popup box -->
         <div class="popup-box" id="box-container">
             <div class="popup-items" id="controls">
-                <p id="prev-popup-box" class="fa-solid fa-circle-left fa-2x"></p>
-                <p id="next-popup-box" class="fa-solid fa-circle-right fa-2x"></p>
-                <p id="close-popup-box" class="fa-solid fa-circle-xmark fa-2x"></p>
+                <p id="prev-popup-box">&#10094;</p>
+                <p id="next-popup-box">&#10095;</p>
+                <p id="close-popup-box">X</p>
             </div>
         </div>
     </div>
@@ -335,15 +328,11 @@
 
     <!-- Footer -->
     <footer>
-        <p> <span>copyright</span> &copy; 2025 All rights reserved | designed by <span>ammar sherif</span></p>
+        <p> <span>copyright</span> &copy; 2025 All rights reserved | designed by <span>Khaled Nasr </span></p>
     </footer>
 
     <!-- Script-Path -->
     <script src="./js/script.js" defer></script>
-    <script src="./js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
 </body>
 
 </html>
